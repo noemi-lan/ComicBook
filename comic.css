@@ -1,0 +1,152 @@
+*{list-style-type: none; margin: 0; padding: 0;} 
+
+/* Nav item */
+.nav__item {
+  height: 40px;
+  margin: 0 1em; 
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+ 
+li {
+  font-family: 'Raleway', sans-serif;
+  display: inline;
+  color: #ffffff; 
+  }
+  
+/*** header Banner*/
+.banner {
+  background: #2ecc71;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden; 
+  }
+
+.banner a {
+  color: #FFFFCC; 
+  font-family: Comic Sans MS;
+  font-size:1.35em;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  float:left;
+  }
+  
+.banner a:hover {
+  color: #89cfaa; 
+  }
+  
+/* Links */
+a {
+  text-decoration: none;
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+  -webkit-transition: all 600ms ease-out-in;
+  -moz-transition: all 600ms ease-out-in;
+  transition: all 600ms ease-out-in; 
+  }
+  
+a:hover {
+  color: #7C2B2D; 
+  }
+  
+.header {
+  background-color: #1abc9c;
+  height: 50px;
+  }
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #101010;
+  border-top: 1px solid #e5e5e5;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: Comic Sans MS;
+}
+
+.tools {
+  margin:30px 10px;
+  margin-left: 40px;
+  background:#FFFFFF;
+  width:150px;
+  height: auto;
+  float: center;
+
+  } 
+  
+#color input {
+  width:20px;
+  height:20px;
+  border:0px solid #ffffff;
+  border-radius:10px;
+  margin:6px 0;
+  } 
+  
+
+.canvas {
+  cursor:default;
+  width: 200px;
+  height: 200px;  
+  border:1px solid #c3c3c3;
+background:rgba(250,250,250,0);
+} 
+  
+.font input,
+.operation input {
+  width:30px;
+  height:30px;
+  margin:2px 0;
+  padding:5px 5px;
+  } 
+
+#eraser {
+  width:30px;
+  height:30px;
+  padding:5px 5px;
+}
+
+#undo {
+  width:30px;
+  height:30px;
+  padding:5px 5px;
+  margin:2px 0
+}
+#redo {
+  width:30px;
+  height:30px;
+  padding:5px 5px;
+  margin:2px 0
+}
+
+
+.tools .grea {
+  background:#9adcf1;
+  } 
+#canvasBorad li { 
+  display: block; 
+  margin:0px  0px  0px 10px;
+  }
+  
+#panelBorad ul {
+  float:center;
+  }
+  
+.tools .i1{background:#000000;} 
+.tools .i2{background:#3498db;} 
+.tools .i3{background:#34495e;} 
+.tools .i4{background:#16a085;} 
+.tools .i5{background:#27ae60;} 
+.tools .i6{background:#8e44ad;} 
+.tools .i7{background:#2c3e50;}
+.tools .i8{background:#f1c40f;}
+.tools .i9{background:#e67e22;}
+.tools .i10{background:#e74c3c;}
+.tools .i11{background:#95a5a6;} 
+.tools .i12{background:#c0392b;} 
+.tools .i13{background:#d35400;} 
+.tools .i14{background:#7f8c8d;} 
+.tools .i15{background:#00FFFF;} 

@@ -1,0 +1,123 @@
+<!doctype html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>ACT-COMICS</title>
+<link rel="stylesheet" type="text/css" href="comic.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+<script src="jquery-1.11.1.js"></script>
+<script src="jquery-ui.js"></script>
+</head> 
+<body> 
+	<div class="fa"> 
+	<header class="banner">
+    	<li class="nav_item">
+    	<a  href="#top">Act-Comics</a>
+    	</li>
+    	<li class="nav_item">
+    	<a  href="http://www.facebook.com">Community</a>
+    	<a href="mailto:aurorajane@126.com">Contact us</a>
+    	</li>
+    </header>
+    	<!--toolkit-->
+        <div class="tools" style="float:right"> 
+            <div id="color" style="float:center","margin:30px 0"> 
+                <div><font face="verdana">Color Palette</font></div>
+                <div>
+                    <div>
+                        <input class="i1" type="button" value="" /> 
+                        <input class="i2" type="button" value="" /> 
+                        <input class="i3" type="button" value="" /> 
+                        <input class="i4" type="button" value="" /> 
+                        <input class="i5" type="button" value="" /> 
+                     </div>
+                     <div>
+                        <input class="i6" type="button" value="" /> 
+                        <input class="i7" type="button" value="" /> 
+                        <input class="i8" type="button" value="" /> 
+                        <input class="i9" type="button" value="" /> 
+                        <input class="i10" type="button" value="" /> 
+                     </div>
+                     <div>
+                        <input class="i11" type="button" value="" /> 
+                        <input class="i12" type="button" value="" /> 
+                        <input class="i13" type="button" value="" />
+                        <input class="i14" type="button" value="" /> 
+                        <input class="i15" type="button" value="" /> 
+                    </div>
+                </div>
+            </div> 
+
+            <div class="font" id="font" style="margin:5px 0"> 
+                <div><font face="verdana">Pencil</font></div> 
+                <input type="image"  src="pic/slim.png"/>       
+                <input type="image"  src="pic/medium.png" class="grea"/> 
+                <input type="image"  src="pic/bold.png" /> 
+            </div> 
+
+            <div style="margin:5px 0"> 
+                <div id="error"><font face="verdana">Modification</font></div> 
+                <input id="eraser" type= "image" src="pic/eraser.png"/> 
+                <input id="undo" type="image" src="pic/undo.png"/>
+            	<input id="redo" type="image" src="pic/redu.png"/>           	
+            
+            </div> 
+            <div class= "operation">	
+                <div id="laypro"><font face="verdana">Panel&Layer</font></div> 
+                <div>
+					<input id="addCanvasBorad" type="image" src="pic/addpanel.png"/>
+                    <input id="deletePanel" type="image" src="pic/deletepanel.png"> 
+                    <input id="clear" type="image" src="pic/clear.png"/> 
+
+                    <br>
+                    <input id="addLayer"  value="addlayer" type= "image" src="pic/addLayer.png"/> 
+                    <input id="deleteLayer"  value="deletelayer" type= "image" src="pic/deleteLayer.png"/> 
+                    <input id="addDialog" type="image" src="pic/speech.jpg">  <!-- add speech-->     
+                </div>
+                
+                <div>   
+                    <select id="option" style="width:120px;">
+                    <option value ="0" >panel1</option>  
+                    </select>                     
+                </div>
+                
+                <div id="layButton" style="position:relative;" >
+                	<div id="layButton0" style="position:absoluete; top:0;"><input id="lay00" class="lay0" type="button" value="layer1" style="width:120px;"/></div>  
+					<input id="dialogText" type="text" style="width:110px;" /> 
+					<select id="optionContext"  style="width=70px;"/>
+                    	
+					</select>        &nbsp; 
+					<input id="deleteContext" type="button" value="deleteText" style="width:70px;height:30px;"/>                
+                </div>
+                
+                <div style="margin:20px 0;">               
+                	 <select id="optionBorder">
+                    	  <option value ="0" >border1</option>  
+                    </select>     
+                    <input id="deleteCanvasBorad" type="button"  value="deleteBorad" style="width:120px;height:30px;"/>                                 
+                </div>
+					<input id="imgurl" type="button" value="export" style="width:120px;height:30px;"/>       
+                    <input id="revocation" type="button" value="cancel" style="width:120px;height:30px;"/>  
+				</div>                  
+			</div>
+            <div id="canvasBorad" >
+                <ul >
+                    <li id="panelBorad" style="margin: 10px 0px 0px 10px;">
+                	   <ul id="panel0" style="float:left;width:200px;height:200px;display: block;margin: 10px 0px 0px 10px;position:relative;"><li id="layer00" class="draggable" style="position: absolute;top:0;" width="220" height="220" ><canvas id="canvas0" class="canvas" width="480" height="480">your browser cannot support canvas</canvas></li>
+                       </ul>
+                    </li>
+                </ul>
+                <div style="clear:both;"></div>
+            </div>
+    	<div id="div1"></div>
+    </div> 
+
+    <div class="footer">
+        <p>@ 2014 HANDCRAFTED BY XUEMEI YU</p>
+    </div>
+    
+    <div id="html"> </div> 
+    <script type="text/javascript" src="control.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <div style="clear:both"></div> 
+</body> 
+</html> 

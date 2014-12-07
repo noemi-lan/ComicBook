@@ -1,0 +1,95 @@
+<!doctype html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" /> 
+<title>画图板</title>
+<link rel="stylesheet" type="text/css" href="print.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+<script src="jquery-1.10.2.js"></script>
+<script src="jquery-ui.js"></script>
+</head> 
+<body> 
+    <div class="fa"> 
+        <div class="tools" style="float:left"> 
+            <div id="color"> 
+                <div>画笔颜色</div>
+                <div>
+                    <div>
+                        <input class="i1" type="button" value="" /> 
+                        <input class="i2" type="button" value="" /> 
+                        <input class="i3" type="button" value="" /> 
+                        <input class="i4" type="button" value="" /> 
+                        <input class="i5" type="button" value="" /> 
+                     </div>
+                     <div>
+                        <input class="i6" type="button" value="" /> 
+                        <input class="i7" type="button" value="" /> 
+                        <input class="i8" type="button" value="" /> 
+                        <input class="i9" type="button" value="" /> 
+                        <input class="i10" type="button" value="" /> 
+                     </div>
+                     <div>
+                        <input class="i11" type="button" value="" /> 
+                        <input class="i12" type="button" value="" /> 
+                        <input class="i13" type="button" value="" />
+                        <input class="i14" type="button" value="" /> 
+                        <input class="i15" type="button" value="" /> 
+                    </div>
+                    <div>
+                        <input class="i16" type="button" value="" /> 
+                        <input class="i17" type="button" value="" /> 
+                        <input class="i18" type="button" value="" /> 
+                        <input class="i19" type="button" value="" />
+                        <input class="i20" type="button" value="" /> 
+                    </div>
+                    <div>
+                        <input class="i21" type="button" value="" /> 
+                        <input class="i22" type="button" value="" /> 
+                        <input class="i23" type="button" value="" /> 
+                        <input class="i24" type="button" value="" /> 
+                        <input class="i25" type="button" value="" />
+                     </div>
+                </div>
+            </div> 
+            <div class="font" id="font" style="margin:20px 0"> 
+                <div>画笔宽度</div> 
+                <input type="button"  style="background: url('http://www.gartic.com.br/imgs/room/op_larg2.gif') no-repeat center;"/>       
+                <input type="button"  style="background: url('http://www.gartic.com.br/imgs/room/op_larg4.gif') no-repeat center;" class="grea"/> 
+                <input type="button"  style="background: url('http://www.gartic.com.br/imgs/room/op_larg6.gif') no-repeat center;"/> 
+            </div> 
+            <div style="margin:20px 0"> 
+                <div id="error">橡皮擦：</div> 
+                <input id="eraser" style="background: url('http://www.gartic.com.br/imgs/room/op_borracha.gif') no-repeat center;" type="button"  /> 
+            </div> 
+            <div class= "operation">
+                <div>
+                    <input id="clear" type="button" value="清除画布" style="width:80px;"/> 
+                    <input id="revocation" type="button" value="撤销" style="width:80px;"/> 
+                </div>
+                <div>
+                    <input id="imgurl" type="button" value="导出图片路径" style="width:100px;"/> 
+                </div>
+                <div>
+                    <input id="addCanvasBorad" type="button" value="新增画板" style="width:80px;">
+                    <input id="deleteCanvasBorad" type="button"  value="删除画板" style="width:80px;"/>
+                </div>
+                <div>
+                    <input id="dialogText" type="text" style="width:100px;" />
+                    <input id="addDialog" type="button" value="新增对话" style="width:80px"/>
+                </div>
+            </div>
+        </div>
+        <div id="canvasBorad">
+            <ul>
+                <li><canvas id="canvas0" class="canvas" width="480" height="480">您的浏览器不支持canvas标签，请升级浏览器</canvas></li>
+            </ul>
+            <div style="clear:both;"></div>
+        </div>
+        <div id="div1">resize</div> 
+    </div> 
+    <div id="html"> </div> 
+    <!-- <script type="text/javascript" src="print.js"></script>  -->
+    <script type="text/javascript" src="control.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+    <div style="clear:both"></div> 
+</body> 
+</html> 
